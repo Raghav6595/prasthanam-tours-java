@@ -21,9 +21,4 @@ public class TestController {
     public List<Package> getAll() {
         return repo.findAll();
     }
-
-    @GetMapping("/uri")
-    public String uri() {
-        return mongoUri;
-    }
 }
